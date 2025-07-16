@@ -7,7 +7,7 @@ tasty_bytes:
       user: 'not needed'
       role: sysadmin
       database: glen_dbt_dev
-      schema: dbt_dev
+      schema: dbt_dev_target
       warehouse: compute_wh
     prod:
       type: snowflake
@@ -15,5 +15,5 @@ tasty_bytes:
       user: 'not needed'
       role: sysadmin
       database: glen_dbt_dev
-      schema: dbt_prod
+      schema: dbt_prod_target
       warehouse: compute_wh
