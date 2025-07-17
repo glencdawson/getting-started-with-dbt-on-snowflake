@@ -1,4 +1,4 @@
-USE ROLE accountadmin;
+USE ROLE sysadmin;
 
 CREATE OR REPLACE WAREHOUSE tasty_bytes_dbt_wh
     WAREHOUSE_SIZE = 'small'
@@ -47,7 +47,7 @@ url = 's3://sfquickstarts/frostbyte_tastybytes/'
 file_format = tasty_bytes_dbt_db.public.csv_ff;
 
 /*--
- raw zone table build 
+ raw zone table build t
 --*/
 
 -- country table build
