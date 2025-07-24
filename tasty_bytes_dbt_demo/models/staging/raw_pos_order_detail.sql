@@ -1,2 +1,3 @@
 SELECT *
 FROM {{ source('tb_101', 'ORDER_DETAIL') }}
+LIMIT 1000
