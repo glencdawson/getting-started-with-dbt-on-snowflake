@@ -1,3 +1,3 @@
 SELECT *
 FROM {{ source('tb_101', 'COUNTRY') }}
-LIMIT 1000
+LIMIT 100
